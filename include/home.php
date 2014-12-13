@@ -1,4 +1,4 @@
-<section>
+<section dir="ltr">
     <!-- JSSOR SLIDER -->
     <div style="position: relative; top: 0px; left: 0px; width:100%; text-align: center; background-image: url(images/22.JPG); border-top: 1px solid gray; border-bottom: 1px solid gray; overflow: hidden; background-size:cover;">
         <!-- Jssor Slider Begin -->
@@ -30,7 +30,7 @@
                             <div>
                                 <a u="image" href="#"><img src="images/slider-1-slide-1.jpg" alt="image slider" /></a>
                                 <div u=caption t="*" class="captionOrange"  style="position:absolute; left:20px; top: 30px; width:300px; height:30px;"> 
-                                mobile ready, touch swipe
+                                شرکت راه سازان زرافشان
                                 </div>
                             </div> 
                         </div>
@@ -45,30 +45,8 @@
                         <a style="display: none" href="#">jquery photo gallery</a>
                     </div>
                     <!-- Jssor Slider End -->
-                    <div u="caption" t="RTT*JUP|BR" t2="SPACESHIP|RB" style="position: absolute; left: 0px;top:30px;width:600px;height:30px;font-size:28px;color:#fff;line-height:30px; text-align: center;">
-                    widely used image slider example
-                    </div>
-                    <div style="position: absolute; top: 110px; left: 640px; width: 320px; height: 250px;">
-                        <div u="caption" t="TEAM_1" d="-200" du="50%" class="captionSymbol" style="position: absolute; top: 10px; left: 0px; width: 30px; height: 30px;">+</div>
-                        <div u="caption" t="TEAM_1" d="-200" y="100%" class="captionOrange" style="position: absolute; top: 10px; left: 40px; width: 280px; height: 30px;">
-                        mobile ready, drag move
-                        </div>
-                        <div u="caption" t="TEAM_1" d="-200" du="50%" class="captionSymbol" style="position: absolute; top: 60px; left: 0px; width: 30px; height: 30px;" debug-id="team-caption">+</div>
-                        <div u="caption" t="TEAM_1" d="-200" y="50%" class="captionOrange" style="position: absolute; top: 60px; left: 40px; width: 280px; height: 30px;">
-                        touch swipe, touch freeze
-                        </div>
-                        <div u="caption" t="TEAM_1" d="-200" du="50%" class="captionSymbol" style="position: absolute; top: 110px; left: 0px; width: 30px; height: 30px;">+</div>
-                        <div u="caption" t="TEAM_1" d="-200" y="0" class="captionOrange" style="position: absolute; top: 110px; left: 40px; width: 280px; height: 30px;">
-                        responsive, scale smoothly
-                        </div>
-                        <div u="caption" t="TEAM_1" d="-200" du="50%" class="captionSymbol" style="position: absolute; top: 160px; left: 0px; width: 30px; height: 30px;">+</div>
-                        <div u="caption" t="TEAM_1" d="-200" y="-50%" class="captionOrange" style="position: absolute; top: 160px; left: 40px; width: 280px; height: 30px;">
-                        random caption transition
-                        </div>
-                        <div u="caption" t="TEAM_1" d="-200" du="50%" class="captionSymbol" style="position: absolute; top: 210px; left: 0px; width: 30px; height: 30px;">+</div>
-                        <div u="caption" t="TEAM_1" d="-200" y="-100%" class="captionOrange" style="position: absolute; top: 210px; left: 40px; width: 280px; height: 30px;">
-                        arrow key navigation
-                        </div>
+                    <div u="caption" t="RTT*JUP|BR" t2="SPACESHIP|RB" style="position: absolute; right: 0px;top:30px;width:600px;height:30px;font-size:28px;color:#fff;line-height:30px; text-align: right;">
+                    مورد تایید شهرداری مرکز
                     </div>
                 </div>
                 <div>
@@ -82,7 +60,7 @@
                             <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
                                 background-color: #000; top: 0px; left: 0px;width: 100%;height:100%;">
                             </div>
-                            <div style="position: absolute; display: block; background: url(../img/loading.gif) no-repeat center center;
+                            <div style="position: absolute; display: block; background: url(../images/loading.gif) no-repeat center center;
                                 top: 0px; left: 0px;width: 100%;height:100%;">
                             </div>
                         </div>
@@ -93,7 +71,7 @@
                             <div>
                                 <a u=image href="#"><img src="images/slider-1-slide-2.jpg" alt="banner rotator" /></a>
                                 <div u=caption t="*" class="captionOrange"  style="position:absolute; left:20px; top: 30px; width:300px; height:30px;"> 
-                                slideshow transition twins
+                                شرکت راه سازان زرافشان
                                 </div>
                             </div>
                         </div>
@@ -111,40 +89,9 @@
                         <a style="display: none" href="#">jquery photo gallery</a>
                     </div>
                     <!-- Jssor Slider End -->
-                    <div u="caption" t="T|IE*IE" t2="B*IB" style="position: absolute; left: 360px;top:360px;width:600px;height:30px;font-size:28px;color:#fff;line-height:30px; text-align: center;">
-                    worldwide popular banner rotator example
-                    </div>
+                    
                     <a class="captionTextBlack" u="caption" t="CLIP|L" d="-200" href="#"
-                        style="position: absolute; top: 30px; left: 0px; width: 320px; height: 30px; font-size: 26px; background-color:transparent;">390+
-                        caption transitions</a>
-
-                    <div u="caption" t="ZM" t2="NO" style="position: absolute; top: 80px; left: 0px; width: 320px; height: 80px;">
-                        <div u="caption" t2="TEAM_2" class="captionOrange" style="position: absolute; top: 0px; left: 0px; width: 200px; height: 30px;">
-                            caption can be
-                        </div>            
-                        <div u="caption" t2="TEAM_2" class="captionBlack" style="position: absolute; top: 40px; left: 0px; width: 100px; height: 30px;">
-                            in team
-                        </div>
-                        <div u="caption" t2="TEAM_2" class="captionBlack" style="position: absolute; top: 40px; left: 130px; width: 100px; height: 30px;">
-                            nested
-                        </div>
-                    </div>
-
-                    <a class="captionTextBlack" u="caption" t="L|EP" href="#"
-                        style="position: absolute; top: 210px; left: 0px; width: 320px; height: 30px; font-size: 26px; background-color:transparent;">360+
-                        slideshow transitions</a>
-
-                    <div u="caption" t="B*IB" t2="NO" style="position: absolute; top: 260px; left: 0px; width: 320px; height: 80px;">
-                        <div u="caption" t2="TEAM_2" class="captionOrange" style="position: absolute; top: 0px; left: 0px; width: 200px; height: 30px;">
-                            slideshow can play
-                        </div>
-                        <div u="caption" t2="TEAM_2" class="captionBlack" style="position: absolute; top: 40px; left: 0px; width: 100px; height: 30px;">
-                            inside
-                        </div>
-                        <div u="caption" t2="TEAM_2" class="captionBlack" style="position: absolute; top: 40px; left: 130px; width: 100px; height: 30px;">
-                            outside
-                        </div>
-                    </div>
+                        style="position: absolute; top: 30px; left: 0px; width: 320px; height: 30px; font-size: 26px; background-color:transparent; color:#FFF" dir="rtl">با بیش از 15 سال سابقه درخشان</a>
                 </div>
                 <div>
                     <!-- Jssor Slider Begin -->

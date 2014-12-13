@@ -76,6 +76,25 @@
 
 <footer dir="rtl">
 	<div class="col-md-4">
+    	<h3>درباره ما</h3>
+        <hr>
+        <ul class="list-unstyled">
+        	<li>شرکت راه سازان زرافشان</li>
+            <li>مورد تایید شهرداری مرکز</li>
+        </ul>
+    </div>
+    <div class="col-md-4">
+    	<h3>ارتباط با ما</h3>
+        <hr>
+        <ul class="list-unstyled">
+        	<li><i class="fa fa-phone"></i> تلفن : 44005308 - 021</li>
+            <li><i class="fa fa-mobile"></i> همراه : 1302895 - 0912</li>
+            <li><i class="fa fa-fax"></i> فکس : 44005332 - 021</li>
+            <li><i class="fa fa-envelope"></i> ایمیل : info@zarafshan.com</li>
+            <li><i class="fa fa-taxi"></i> آدرس : خیابان آیت الله کاشانی، بین شاهین و جنت آباد، خیابان نیرو، پلاک1، طبقه4، واحد 20</li>
+        </ul>
+    </div>
+    <div class="col-md-4">
     	<h3>لینک های مرتبط</h3>
         <hr>
         <ul class="list-unstyled">
@@ -85,28 +104,10 @@
             <li><a href="#">درباره ما</a></li>
         </ul>
     </div>
-    <div class="col-md-4">
-    	<h3>ارتباط با ما</h3>
-        <hr>
-        <ul class="list-unstyled">
-        	<li><i class="fa fa-phone"></i> تلفن : 44005308 - 021</li>
-            <li><i class="fa fa-envelope"></i> ایمیل : info@zarafshan.com</li>
-        </ul>
-    </div>
-    <div class="col-md-4">
-    	<h3>اشبکه های اجتماعی</h3>
-        <hr>
-        <ul class="list-unstyled social-links">
-        	<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-        </ul>
-    </div>
     <div class="clearfix"></div>
 	<div class="footer-bottom">
     	<p>کلیه حقوق این سایت متعلق به شرکت راه سازان زرافشان می باشد</p>
-        <p>Design by <a href="http://rayweb.ir">rayweb</a></p>
+        <p style="margin-bottom:0 !important">Design by <a href="http://rayweb.ir">rayweb</a></p>
     </div>
 </footer>
 
