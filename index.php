@@ -43,16 +43,16 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li class="pull-right active"><a href="#">صفحه اصلی</a></li>
+            <li class="pull-right active"><a href="?page=home">صفحه اصلی</a></li>
             <li class="dropdown pull-right">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">محصولات <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="?page=table">جدول</a></li>
+                <li><a href="?page=jadval">جدول</a></li>
                 <li><a href="?page=sangdal">سنگدال</a></li>
               </ul>
             </li>
-            <li class="pull-right"><a href="#">درباره ما</a></li>
-            <li class="pull-right"><a href="#">تماس با ما</a></li>
+            <li class="pull-right"><a href="?page=about">درباره ما</a></li>
+            <li class="pull-right"><a href="?page=contact">تماس با ما</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -79,8 +79,9 @@
     	<h3>درباره ما</h3>
         <hr>
         <ul class="list-unstyled">
-        	<li>شرکت راه سازان زرافشان</li>
-            <li>مورد تایید شهرداری مرکز</li>
+        	<p>شرکت راه سازان زرافشان</p>
+            <p>تولید کننده قطعات پیش ساخته</p>
+            <p>جداول و سنگدال</p>
         </ul>
     </div>
     <div class="col-md-4">

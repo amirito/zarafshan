@@ -9,6 +9,7 @@
 body{
 	font-family:farnaz, tahoma;
 	direction:rtl;
+	font-size:18px;
 	}
 
 .navbar-top{
@@ -92,4 +93,8 @@ a:hover{
 	-ms-transition: all .5s;
 	-o-transition: all .5s;
 	transition: all .5s;
+	}
+.list li{
+	list-style-type:none;
+	font-size:18px;
 	}

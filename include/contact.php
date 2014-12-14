@@ -23,8 +23,8 @@
 							<!-- sidebar start -->
 							<aside class="sidebar col-md-6">
 								<div class="side vertical-divider-left">
-									<h3 class="title">اطلاعات تماس</h3>
-									<ul class="list">
+									<h2 class="title">اطلاعات تماس</h2>
+									<ul class="list" style="line-height:50px">
 										<li><strong>راه سازان زرافشان</strong></li>
 										<li>آدرس : خیابان آیت الله کاشانی، بین شاهین و جنت آباد، خیابان نیرو<br>پلاک 1، طبقه 4، واحد 20</li>
 										<li>تلفن : 44005308 - 021</li>
@@ -33,16 +33,11 @@
                                         <li>ایمیل :  info@zarafshan.com</li>
 									</ul>
 									
-									<ul class="social-links large">
-										<li><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-										<li><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-										<li><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
-									</ul>
 								</div>
 							</aside>
 							<!-- sidebar end -->
                             <section class="main-content col-md-6">
-								<h1 class="title">تماس با ما</h1>
+								<h2 class="title">تماس با ما</h2>
 								<p>با ما در ارتباط باشید</p>
 								<div class="alert alert-success hidden" id="contactSuccess">
 									<strong>Success!</strong> Your message has been sent to us.
@@ -71,6 +66,7 @@
 										<input type="submit" value="ارسال" class="btn btn-default">
 									</form>
 								</div>
+                                <div class="clearfix"></div><br>
 							</section>
 
 						</div>
