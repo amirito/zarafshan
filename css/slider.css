@@ -1,0 +1,186 @@
+.captionOrange, .captionBlue, .captionBlack, .captionSymbol
+{
+	display: block;
+	color: #fff;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 4px;
+}
+.captionOrange
+{
+	background: #EB5100;
+	background-color: rgba(78, 121, 237, 0.6);
+}
+.captionBlue
+{
+	background: #746FBD;
+	background-color: rgba(21, 21, 120, 0.6);
+}
+.captionBlack
+{
+	background: #000;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.captionSymbol
+{
+	border-radius: 100px !important;
+	font-weight: 400 !important;
+	font-size: 26px !important;
+	background: #000;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.captionTextBlack
+{
+	display: block;
+	color: #000;
+	font-size: 20px;
+	line-height: 30px;
+}
+.captionTextWhite
+{
+	display: block;
+	color: #fff;
+	font-size: 20px;
+	line-height: 30px;
+}
+a.captionOrange, a.captionOrange:active, a.captionOrange:visited,a.captionTextWhite, a.captionTextWhite:active, a.captionTextWhite:visited
+{
+	color: #fff;
+	text-decoration: none;
+}
+a.captionOrange:hover
+{
+	color: #eb5100;
+	text-decoration: underline;
+	background-color: #eeeeee;
+	background-color: rgba(238, 238, 238, 0.7);
+}
+a.captionTextBlack, a.captionTextBlack:active, a.captionTextBlack:visited
+{
+	color: #000;
+	text-decoration: none;
+}
+a.captionTextWhite:hover
+{
+	color: #eb5100;
+	text-decoration: underline;
+}
+a.captionTextBlack:hover
+{
+	color: #eb5100;
+	text-decoration: underline;
+}
+.bricon
+{
+	background: url(../images/browser-icons.png);
+}
+/*
+.jssorb01 div           (normal)
+.jssorb01 div:hover     (normal mouseover)
+.jssorb01 .av           (active)
+.jssorb01 .av:hover     (active mouseover)
+.jssorb01 .dn           (mousedown)
+*/
+.jssorb01 div, .jssorb01 div:hover, .jssorb01 .av
+{
+	filter: alpha(opacity=70);
+	opacity: .7;
+	overflow:hidden;
+	cursor: pointer;
+	border: #000 1px solid;
+}
+.jssorb01 div { background-color: gray; }
+.jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
+.jssorb01 .av { background-color: #fff; }
+.jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
+/* jssor slider arrow navigator skin 05 css */
+/*
+.jssora05l              (normal)
+.jssora05r              (normal)
+.jssora05l:hover        (normal mouseover)
+.jssora05r:hover        (normal mouseover)
+.jssora05ldn            (mousedown)
+.jssora05rdn            (mousedown)
+*/
+.jssora05l, .jssora05r, .jssora05ldn, .jssora05rdn
+{
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url(../images/a17.png) no-repeat;
+	overflow:hidden;
+}
+.jssora05l { background-position: -10px -40px; }
+.jssora05r { background-position: -70px -40px; }
+.jssora05l:hover { background-position: -130px -40px; }
+.jssora05r:hover { background-position: -190px -40px; }
+.jssora05ldn { background-position: -250px -40px; }
+.jssora05rdn { background-position: -310px -40px; }
+/* this line can be removed, but it really helps in case of css conflicts in your page */
+.sliderc div { position: relative; margin: 0px; padding: 0px; }
+/* jssor slider arrow navigator skin 02 css */
+/*
+.jssora02l              (normal)
+.jssora02r              (normal)
+.jssora02l:hover        (normal mouseover)
+.jssora02r:hover        (normal mouseover)
+.jssora02ldn            (mousedown)
+.jssora02rdn            (mousedown)
+*/
+.jssora02l, .jssora02r, .jssora02ldn, .jssora02rdn
+{
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url(../images/a02.png) no-repeat;
+	overflow:hidden;
+}
+.jssora02l { background-position: -3px -33px; }
+.jssora02r { background-position: -63px -33px; }
+.jssora02l:hover { background-position: -123px -33px; }
+.jssora02r:hover { background-position: -183px -33px; }
+.jssora02ldn { background-position: -243px -33px; }
+.jssora02rdn { background-position: -303px -33px; }
+/* jssor slider bullet navigator skin 03 css */
+/*
+.jssorb03 div           (normal)
+.jssorb03 div:hover     (normal mouseover)
+.jssorb03 .av           (active)
+.jssorb03 .av:hover     (active mouseover)
+.jssorb03 .dn           (mousedown)
+*/
+.jssorb03 div, .jssorb03 div:hover, .jssorb03 .av
+{
+	background: url(../images/b03.png) no-repeat;
+	overflow:hidden;
+	cursor: pointer;
+}
+.jssorb03 div { background-position: -5px -4px; }
+.jssorb03 div:hover, .jssorb03 .av:hover { background-position: -35px -4px; }
+.jssorb03 .av { background-position: -65px -4px; }
+.jssorb03 .dn, .jssorb03 .dn:hover { background-position: -95px -4px; }
+/* jssor slider arrow navigator skin 20 css */
+/*
+.jssora20l              (normal)
+.jssora20r              (normal)
+.jssora20l:hover        (normal mouseover)
+.jssora20r:hover        (normal mouseover)
+.jssora20ldn            (mousedown)
+.jssora20rdn            (mousedown)
+*/
+.jssora20l, .jssora20r, .jssora20ldn, .jssora20rdn
+{
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url(../images/a20.png) no-repeat;
+	overflow:hidden;
+}
+.jssora20l { background-position: -3px -33px; }
+.jssora20r { background-position: -63px -33px; }
+.jssora20l:hover { background-position: -123px -33px; }
+.jssora20r:hover { background-position: -183px -33px; }
+.jssora20ldn { background-position: -243px -33px; }
+.jssora20rdn { background-position: -303px -33px; }
+
