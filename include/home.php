@@ -114,23 +114,13 @@
                             overflow: hidden;">
                             <div>
                                 <a u=image href="#"><img src="images/slider-1-slide-3.jpg" alt="banner slider" /></a>
-                                <div u="thumb">Do you notice it is draggable by mouse/finger?</div>
+                                <div u=caption t="*" class="captionOrange"  style="position:absolute; left:20px; top: 30px; width:300px; height:30px;"> 
+                                شرکت راه سازان زرافشان
+                                </div>
                             </div>
                         </div>
 
-                        <!-- ThumbnailNavigator Skin Begin -->
-                        <div u="thumbnavigator" class="slider3-T" style="position: absolute; bottom: 0px; left: 0px; height:45px; width:600px;">
-                            <div style="filter: alpha(opacity=40); opacity:0.4; position: absolute; display: block;
-                                background-color: #000; top: 0px; left: 0px; width: 100%; height: 100%;">
-                            </div>
-                            <!-- Thumbnail Item Skin Begin -->
-                            <div u="slides">
-                                <div u="prototype" style="POSITION: absolute; WIDTH: 600px; HEIGHT: 45px; TOP: 0; LEFT: 0;">
-                                    <thumbnailtemplate style="font-family: verdana; font-weight: normal; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0; LEFT: 0; color:#fff; line-height: 45px; font-size:20px; padding-left:10px;"></thumbnailtemplate>
-                                </div>
-                            </div>
-                            <!-- Thumbnail Item Skin End -->
-                        </div>
+                        
                         <!-- ThumbnailNavigator Skin End -->
                         
                         <!-- Arrow Navigator Skin Begin -->
@@ -145,40 +135,11 @@
                     </div>
                     <!-- Jssor Slider End -->
                     <div u="caption" t="L*IB" t2="SPACESHIP|LB" style="position: absolute; left: 360px;top:30px;width:600px;height:30px;font-size:28px;color:#fff;line-height:30px; text-align: center;">
-                    supper scalable banner slider example
-                    </div>
-                    <div class="captionTextBlack" u="caption" t="CLIP|LR" d="-200"
-                        style="position: absolute; top: 60px; left: 0px; width: 320px; height: 30px; font-size: 26px; background-color:transparent;">deep ui comstomization</div>
-
-                    <div u="caption" t2="ZM" style="position: absolute; top: 120px; left: 0px; width: 320px; height: 120px;">
-                        <div u="caption" class="captionOrange" t="TEAM_2" t2="NO" d=-300 style="position: absolute; top: 0px; left: 0px; width: 200px; height: 30px;">
-                            image thumbnail
-                        </div>            
-                        <div u="caption" class="captionBlack" t="TEAM_2" t2="NO" d=-300 style="position: absolute; top: 40px; left: 0px; width: 200px; height: 30px;">
-                            text thumbnail
-                        </div>
-                        <div u="caption" class="captionBlack" t="TEAM_2" t2="NO" d=-300 style="position: absolute; top: 80px; left: 00px; width: 200px; height: 30px;">
-                            mixed thumbnail
-                        </div>
+                    تولید کننده قطعات بتنی پیش ساخته <br>
+                    جداول و سنگدال
                     </div>
 
-                    <div u="caption" t="RTT|360" t2="NO" style="position: absolute; top: 290px; left: 0px; width: 320px; height: 80px;">
-                        <div u="caption" class="captionOrange" t2="TEAM_2" style="position: absolute; top: 0px; left: 0px; width: 120px; height: 30px;">
-                            bullets
-                        </div>            
-                        <div u="caption" class="captionOrange" t2="TEAM_2" style="position: absolute; top: 40px; left: 0px; width: 120px; height: 30px;">
-                            thumbnails
-                        </div>            
-                        <div u="caption" class="captionBlack" t2="TEAM_2" style="position: absolute; top: 20px; left: 130px; width: 30px; height: 30px;">
-                            in
-                        </div>
-                        <div u="caption" class="captionBlack" t2="TEAM_2" style="position: absolute; top: 0px; left: 170px; width: 120px; height: 30px;">
-                            horizontal
-                        </div>            
-                        <div u="caption" class="captionBlack" t2="TEAM_2" style="position: absolute; top: 40px; left: 170px; width: 120px; height: 30px;">
-                            vertical
-                        </div> 
-                    </div>
+                    
                 </div>
             </div> 
             <!-- bullet navigator container -->

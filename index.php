@@ -99,10 +99,11 @@
     	<h3>لینک های مرتبط</h3>
         <hr>
         <ul class="list-unstyled no-decor" style="padding-right:0">
-        	<li><a href="#">صفحه اصلی</a></li>
-            <li><a href="#">محصولات</a></li>
-            <li><a href="#">ارتباط با ما</a></li>
-            <li><a href="#">درباره ما</a></li>
+        	<li><a href="?page=home">صفحه اصلی</a></li>
+            <li><a href="?page=sangdal">جدول</a></li>
+            <li><a href="?page=jadval">سنگدال</a></li>
+            <li><a href="?page=contacr">ارتباط با ما</a></li>
+            <li><a href="?page=about">درباره ما</a></li>
         </ul>
     </div>
     <div class="clearfix"></div>

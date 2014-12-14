@@ -24,7 +24,7 @@
 							<aside class="sidebar col-md-6">
 								<div class="side vertical-divider-left">
 									<h3 class="title">اطلاعات تماس</h3>
-									<ul class="list">
+									<ul class="list" style="line-height:40px">
 										<li><strong>راه سازان زرافشان</strong></li>
 										<li>آدرس : خیابان آیت الله کاشانی، بین شاهین و جنت آباد، خیابان نیرو<br>پلاک 1، طبقه 4، واحد 20</li>
 										<li>تلفن : 44005308 - 021</li>
@@ -33,11 +33,7 @@
                                         <li>ایمیل :  info@zarafshan.com</li>
 									</ul>
 									
-									<ul class="social-links large">
-										<li><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-										<li><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-										<li><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
-									</ul>
+									
 								</div>
 							</aside>
 							<!-- sidebar end -->
@@ -70,6 +66,7 @@
 										</div>
 										<input type="submit" value="ارسال" class="btn btn-default">
 									</form>
+                                    <br>
 								</div>
 							</section>
 
