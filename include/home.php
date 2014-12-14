@@ -200,11 +200,41 @@
     </div>
 </section>
 
-
+<br>
 <!-- main start -->
-<section class="main">
+<section class="container">
 
-    
+<div class="col-md-6 pull-right">
+	<div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">مشخصات فنی</h3>
+      </div>
+      <div class="panel-body">
+        <ul class="list-unstyled">
+            <li>نحوه تولید: بتن خشک متراکم</li>
+            <li>وزن مخصوص: 2400 کیلوگرم در متر مکعب</li>
+            <li>دوز آج سیمان: 400 کیلوگرم در متر مربع</li>
+            <li>نوع سیمان: پرتلند تیپ2</li>
+        </ul>
+      </div>
+    </div>
+</div>
+<div class="col-md-6 pull-right">
+	<div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">مشخصات کیفی</h3>
+      </div>
+      <div class="panel-body">
+        <ul class="list-unstyled">
+            <li>مقاوم در برابر سرما و گرما (مناسب برای 4 فصل)</li>
+            <li>مقاوم در برابر سایش (ثبات نما در دراز مدت)</li>
+            <li>مقاومت فشاری بالا (مورد تأیید آزمایشگاه مرکزی)</li>
+            <li>سطحی نسبتاً صاف و یک پارچه</li>
+        </ul>
+      </div>
+    </div>
+</div>
+  
 
 </section>
 <!-- main end -->

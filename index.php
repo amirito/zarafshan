@@ -23,7 +23,7 @@
         </div>
     </div>
     <div class="jumbotron text-center">
-    	<img src="images/logo_blue.png">
+    	<a href="index.php?page=home"><img src="images/logo_blue.png"></a>
         <h3>شرکت راه سازان زرافشان</h3>
         <h4>مورد تایید شهرداری مرکز</h4>
     </div>
@@ -78,7 +78,7 @@
 	<div class="col-md-4">
     	<h3>درباره ما</h3>
         <hr>
-        <ul class="list-unstyled">
+        <ul class="list-unstyled" style="padding-right:0">
         	<p>شرکت راه سازان زرافشان</p>
             <p>تولید کننده قطعات پیش ساخته</p>
             <p>جداول و سنگدال</p>
@@ -87,7 +87,7 @@
     <div class="col-md-4">
     	<h3>ارتباط با ما</h3>
         <hr>
-        <ul class="list-unstyled">
+        <ul class="list-unstyled" style="padding-right:0">
         	<li><i class="fa fa-phone"></i> تلفن : 44005308 - 021</li>
             <li><i class="fa fa-mobile"></i> همراه : 1302895 - 0912</li>
             <li><i class="fa fa-fax"></i> فکس : 44005332 - 021</li>
@@ -98,7 +98,7 @@
     <div class="col-md-4">
     	<h3>لینک های مرتبط</h3>
         <hr>
-        <ul class="list-unstyled">
+        <ul class="list-unstyled" style="padding-right:0">
         	<li><a href="#">صفحه اصلی</a></li>
             <li><a href="#">محصولات</a></li>
             <li><a href="#">ارتباط با ما</a></li>
