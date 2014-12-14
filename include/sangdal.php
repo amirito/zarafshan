@@ -29,14 +29,13 @@
 							<section class="main-content col-md-12">
                             
                                 <h2 align="center">مشخصات سنگدال</h2>
-							<table class="table table-hover" align="center">
+							<table class="table table-hover table-bordered" align="center">
 									<thead>
 										<tr>
 											<th class="text-right">ردیف</th>
 											<th class="text-right">ابعاد جداول</th>
 											<th class="text-right">وزن</th>
 											<th class="text-right">عیار</th>
-                                            <th class="text-right">قیمت جداول</th>
                                             <th class="text-right">تعداد جداول در هر خاور</th>
 										</tr>
 									</thead>
@@ -46,7 +45,6 @@
 											<td>80*60*10</td>
 											<td>125</td>
 											<td>400</td>
-                                            <td>400،000</td>
                                             <td>40</td>
 										</tr>
 										<tr>
@@ -54,7 +52,6 @@
 											<td>80*60*15</td>
 											<td>190</td>
 											<td>400</td>
-                                            <td>600،000</td>
                                             <td>30</td>
 										</tr>
 										<tr>
@@ -62,7 +59,6 @@
 											<td>100*60*10</td>
 											<td>145</td>
 											<td>400</td>
-                                            <td>500،000</td>
                                             <td>30</td>
 										</tr>
                                         <tr>
@@ -70,7 +66,6 @@
 											<td>100*60*15</td>
 											<td>230</td>
 											<td>400</td>
-                                            <td>700،000</td>
                                             <td>20-25</td>
 										</tr>
                                         <tr>
@@ -78,7 +73,6 @@
 											<td>120*60*10</td>
 											<td>190</td>
 											<td>400</td>
-                                            <td>650،000</td>
                                             <td>25</td>
 										</tr>
                                         <tr>
@@ -86,7 +80,6 @@
 											<td>120*60*15</td>
 											<td>280</td>
 											<td>400</td>
-                                            <td>900،000</td>
                                             <td>20</td>
 										</tr>
                                         <tr>
@@ -94,7 +87,6 @@
 											<td>150*60*15</td>
 											<td>330</td>
 											<td>400</td>
-                                            <td>1،200،000</td>
                                             <td>15</td>
 										</tr>
                                         <tr>
@@ -102,7 +94,6 @@
 											<td>150*60*20</td>
 											<td>440</td>
 											<td>400</td>
-                                            <td>1،450،000</td>
                                             <td>11</td>
 										</tr>
                                         <tr>
@@ -110,7 +101,6 @@
 											<td>200*60*20</td>
 											<td>590</td>
 											<td>400</td>
-                                            <td>1،730،000</td>
                                             <td>8</td>
 										</tr>
 									</tbody>
