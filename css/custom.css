@@ -6,8 +6,15 @@
 	font-weight:normal;
 	font-style:normal;
 }
+@font-face{
+	font-family:'koodak';
+	src:url('../fonts/BKoodakBold.eot');
+	src:url('../fonts/BKoodakBold.eot#iefix') format('eot'),url('../fonts/BKoodakBold.woff') format('woff'),url('../fonts/BKoodakBold.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
 body{
-	font-family:farnaz, tahoma;
+	font-family:koodak, tahoma;
 	direction:rtl;
 	font-size:18px;
 	}

@@ -43,16 +43,16 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li class="pull-right active"><a href="?page=home">صفحه اصلی</a></li>
-            <li class="dropdown pull-right">
+            <li class="pull-right <?php if((isset($_GET['page']) && $_GET['page'] == 'home') || !isset($_GET['page'])){echo 'active';} ?> "><a href="?page=home">صفحه اصلی</a></li>
+            <li class="dropdown pull-right <?php if(isset($_GET['page']) && ($_GET['page'] == 'jadval' || $_GET['page'] == 'sangdal')){echo 'active';} ?>">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">محصولات <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="?page=jadval">جدول</a></li>
-                <li><a href="?page=sangdal">سنگدال</a></li>
+                <li class="<?php if(isset($_GET['page']) && $_GET['page'] == 'jadval'){echo 'active';} ?>"><a href="?page=jadval">جدول</a></li>
+                <li class="<?php if(isset($_GET['page']) && $_GET['page'] == 'sangdal'){echo 'active';} ?>"><a href="?page=sangdal">سنگدال</a></li>
               </ul>
             </li>
-            <li class="pull-right"><a href="?page=about">درباره ما</a></li>
-            <li class="pull-right"><a href="?page=contact">تماس با ما</a></li>
+            <li class="pull-right <?php if(isset($_GET['page']) && $_GET['page'] == 'about'){echo 'active';} ?>"><a href="?page=about">درباره ما</a></li>
+            <li class="pull-right <?php if(isset($_GET['page']) && $_GET['page'] == 'contact'){echo 'active';} ?>"><a href="?page=contact">تماس با ما</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
