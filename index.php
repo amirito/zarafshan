@@ -98,7 +98,7 @@
     <div class="col-md-4">
     	<h3>لینک های مرتبط</h3>
         <hr>
-        <ul class="list-unstyled" style="padding-right:0">
+        <ul class="list-unstyled no-decor" style="padding-right:0">
         	<li><a href="#">صفحه اصلی</a></li>
             <li><a href="#">محصولات</a></li>
             <li><a href="#">ارتباط با ما</a></li>
@@ -108,7 +108,7 @@
     <div class="clearfix"></div>
 	<div class="footer-bottom">
     	<p>کلیه حقوق این سایت متعلق به شرکت راه سازان زرافشان می باشد</p>
-        <p style="margin-bottom:0 !important">Design by <a href="http://rayweb.ir">rayweb</a></p>
+        <p style="margin-bottom:0 !important;font-size:16px">Design by <a href="http://rayweb.ir">rayweb</a></p>
     </div>
 </footer>
 

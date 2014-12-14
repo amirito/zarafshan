@@ -29,7 +29,7 @@
 							<section class="main-content col-md-12">
                             
                                 <h2 align="center">مشخصات سنگدال</h2>
-							<table class="table table-hover table-bordered" align="center">
+							<table class="table table-hover" align="center">
 									<thead>
 										<tr>
 											<th class="text-right">ردیف</th>
@@ -37,6 +37,7 @@
 											<th class="text-right">وزن</th>
 											<th class="text-right">عیار</th>
                                             <th class="text-right">تعداد جداول در هر خاور</th>
+                                            <th class="text-right">تخلیه جداول</th>
 										</tr>
 									</thead>
 									<tbody>
@@ -46,6 +47,7 @@
 											<td>125</td>
 											<td>400</td>
                                             <td>40</td>
+                                            <td>20،000</td>
 										</tr>
 										<tr>
 											<td>2</td>
@@ -53,6 +55,7 @@
 											<td>190</td>
 											<td>400</td>
                                             <td>30</td>
+                                            <td>20،000</td>
 										</tr>
 										<tr>
 											<td>3</td>
@@ -60,6 +63,7 @@
 											<td>145</td>
 											<td>400</td>
                                             <td>30</td>
+                                            <td>20،000</td>
 										</tr>
                                         <tr>
 											<td>4</td>
@@ -67,6 +71,7 @@
 											<td>230</td>
 											<td>400</td>
                                             <td>20-25</td>
+                                            <td>20،000</td>
 										</tr>
                                         <tr>
 											<td>5</td>
@@ -74,6 +79,7 @@
 											<td>190</td>
 											<td>400</td>
                                             <td>25</td>
+                                            <td>20،000</td>
 										</tr>
                                         <tr>
 											<td>6</td>
@@ -81,6 +87,7 @@
 											<td>280</td>
 											<td>400</td>
                                             <td>20</td>
+                                            <td>20،000</td>
 										</tr>
                                         <tr>
 											<td>7</td>
@@ -88,6 +95,7 @@
 											<td>330</td>
 											<td>400</td>
                                             <td>15</td>
+                                            <td>55،000</td>
 										</tr>
                                         <tr>
 											<td>8</td>
@@ -95,6 +103,7 @@
 											<td>440</td>
 											<td>400</td>
                                             <td>11</td>
+                                            <td>75،000</td>
 										</tr>
                                         <tr>
 											<td>9</td>
@@ -102,8 +111,11 @@
 											<td>590</td>
 											<td>400</td>
                                             <td>8</td>
+                                            <td>100،000</td>
 										</tr>
 									</tbody>
 								</table>
+                                <hr>
+                                <p> به قیمت های فوق الذکر 8 درصد مالیات بر ارزش افزوده تعلق می گیرد</p>
                                 
 </section></div></div></div></section>                               

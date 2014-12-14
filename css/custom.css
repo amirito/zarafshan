@@ -1,12 +1,5 @@
 /* CSS Document */
 @font-face{
-	font-family:'farnaz';
-	src:url('../fonts/BFarnaz.eot');
-	src:url('../fonts/BFarnaz.eot#iefix') format('eot'),url('../fonts/BFarnaz.woff') format('woff'),url('../fonts/BFarnaz.ttf') format('truetype');
-	font-weight:normal;
-	font-style:normal;
-}
-@font-face{
 	font-family:'koodak';
 	src:url('../fonts/BKoodakBold.eot');
 	src:url('../fonts/BKoodakBold.eot#iefix') format('eot'),url('../fonts/BKoodakBold.woff') format('woff'),url('../fonts/BKoodakBold.ttf') format('truetype');
@@ -110,4 +103,8 @@ a:hover{
 	}
 .panel-heading{
 	border-radius:0;
+	}
+.no-decor li a{
+	text-decoration:none;
+	color:#333;
 	}
