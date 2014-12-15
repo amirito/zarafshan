@@ -141,6 +141,50 @@
 
                     
                 </div>
+                <div>
+                    <!-- Jssor Slider Begin -->
+                    <!-- You can move inline styles to css file or css block. -->
+                    <div id="slider4_container" style="position: relative; top: 30px; left: 360px; width: 600px;
+                        height: 300px; overflow: hidden; border-radius: 8px; zoom: 1; filter: matrix">
+
+                        <!-- Loading Screen -->
+                        <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+                            <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
+                                background-color: #000; top: 0px; left: 0px;width: 100%;height:100%;">
+                            </div>
+                            <div style="position: absolute; display: block; background: url(../images/loading.gif) no-repeat center center;
+                                top: 0px; left: 0px;width: 100%;height:100%;">
+                            </div>
+                        </div>
+
+                        <!-- Slides Container -->
+                        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 600px; height: 300px;
+                            overflow: hidden;">
+                            <div>
+                                <a u=image href="#"><img src="images/slider-1-slide-2.jpg" alt="banner rotator" /></a>
+                                <div u=caption t="*" class="captionOrange"  style="position:absolute; left:20px; top: 30px; width:300px; height:30px;"> 
+                                شرکت راه سازان زرافشان
+                                </div>
+                            </div>
+                        </div>
+        
+                        
+        
+                        <!-- Arrow Navigator Skin Begin -->
+                        <!-- Arrow Left -->
+                        <span u="arrowleft" class="jssora05l" style="width: 40px; height: 40px; top: 123px; left: 8px;">
+                        </span>
+                        <!-- Arrow Right -->
+                        <span u="arrowright" class="jssora05r" style="width: 40px; height: 40px; top: 123px; right: 8px">
+                        </span>
+                        <!-- Arrow Navigator Skin End -->
+                        <a style="display: none" href="#">jquery photo gallery</a>
+                    </div>
+                    <!-- Jssor Slider End -->
+                    
+                    <a class="captionTextBlack" u="caption" t="CLIP|L" d="-200" href="#"
+                        style="position: absolute; top: 30px; left: 0px; width: 320px; height: 30px; font-size: 26px; background-color:transparent; color:#FFF" dir="rtl">با بیش از 15 سال سابقه درخشان</a>
+                </div>
             </div> 
             <!-- bullet navigator container -->
             <div u="navigator" class="jssorb03" style="position: absolute; bottom: 16px; left: 6px;">

@@ -40,7 +40,7 @@
                                             <th class="text-right">تخلیه جداول</th>
 										</tr>
 									</thead>
-									<tbody>
+									<tbody dir="ltr" class="text-right">
 										<tr>
 											<td>1</td>
 											<td>80*60*10</td>

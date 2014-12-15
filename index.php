@@ -51,6 +51,7 @@
                 <li class="<?php if(isset($_GET['page']) && $_GET['page'] == 'sangdal'){echo 'active';} ?>"><a href="?page=sangdal">سنگدال</a></li>
               </ul>
             </li>
+            <li class="pull-right <?php if(isset($_GET['page']) && $_GET['page'] == 'activities'){echo 'active';} ?>"><a href="?page=activities">فعالیت های عمرانی</a></li>
             <li class="pull-right <?php if(isset($_GET['page']) && $_GET['page'] == 'about'){echo 'active';} ?>"><a href="?page=about">درباره ما</a></li>
             <li class="pull-right <?php if(isset($_GET['page']) && $_GET['page'] == 'contact'){echo 'active';} ?>"><a href="?page=contact">تماس با ما</a></li>
           </ul>
@@ -89,10 +90,11 @@
         <hr>
         <ul class="list-unstyled" style="padding-right:0">
         	<li><i class="fa fa-phone"></i> تلفن : 44005308 - 021</li>
-            <li><i class="fa fa-mobile"></i> همراه : 1302895 - 0912</li>
+            <li><i class="fa fa-mobile"></i> همراه : 8171871 - 0912</li>
             <li><i class="fa fa-fax"></i> فکس : 44005332 - 021</li>
             <li><i class="fa fa-envelope"></i> ایمیل : info@zarafshan.com</li>
             <li><i class="fa fa-taxi"></i> آدرس : خیابان آیت الله کاشانی، بین شاهین و جنت آباد، خیابان نیرو، پلاک1، طبقه4، واحد 20</li>
+            <li><i class="fa fa-user"></i> رئیس هیئت مدیره : آقای صفر عبدی نیا</li>
         </ul>
     </div>
     <div class="col-md-4">

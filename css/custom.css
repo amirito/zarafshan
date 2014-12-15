@@ -108,3 +108,11 @@ a:hover{
 	text-decoration:none;
 	color:#333;
 	}
+.no-decor li a:hover{
+	color:#4E79ED;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+	}
