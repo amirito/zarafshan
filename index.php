@@ -8,6 +8,10 @@
 <!-- jssor -->
 <link rel="stylesheet" type="text/css" href="css/slider.css">
 <title>زر افشان</title>
+<script src="js/jquery.js"></script>
+<script src="js/jssor.js"></script>
+<script src="js/jssor.slider.min.js"></script>
+<script src="js/slider.js"></script>
 </head>
 
 <body>
@@ -116,11 +120,8 @@
 </footer>
 
 
-<script src="js/jquery.js"></script>
+
 <script src="js/bootstrap.min.js"></script>
 <!-- jssor -->
-<script src="js/jssor.js"></script>
-<script src="js/jssor.slider.min.js"></script>
-<script src="js/slider.js"></script>
-</body>
+
 </html>
