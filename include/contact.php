@@ -1,3 +1,41 @@
+<?php
+if(isset($_POST['submit'])){
+		$name = $_POST['name'];
+		$mobile=$_POST['mobile'];
+		$mail = $_POST['mail'];
+		$title = $_POST['title'];
+		$content = $_POST['content'];
+		
+		
+		$to = 'info@rzarafshan.com';
+		$subject = "ارتباط با ما";
+		
+		$message = 'نام و نام خانوادگی : '.$name."\n";
+		$message .= 'موبایل : '.$mobile."\n";
+		$message .= 'ایمیل : '.$mail."\n";
+		$message .= 'موضوع : '.$title."\n";
+		$message .= 'متن پیام : '.$content."\n";
+		
+		
+		
+		$headers = "From: $mail<$mail>\n";
+		$headers .= "Reply-To: $mail<$mail>\n";
+		$headers .= "X-Sender: $mail<$mail>\n";
+		$headers .= "X-Mailer: PHP4\n"; //mailer
+		//$headers .= "X-Priority: 3\n"; //1 UrgentMessage, 3 Normal
+		$headers .= "MIME-Version: 1.0\n";
+		//$headers .= "X-MSMail-Priority: High\n";
+		//$headers .= "Importance: 3\n";
+		//$headers .= "Date: $date\n";
+		//$headers .= "Delivered-to: $to\n";
+		//$headers .= "Return-Path: $mail<$mail>\n";
+		$headers .= "Envelope-from: $mail<$mail>\n";
+		$headers .= "Content-Transfer-Encoding: 8bit\n";
+		$headers .= "Content-Type: text/plain; charset=UTF-8\n";
+		
+		mail($to, $subject, $message, $headers);
+	}
+?>
 <section class="main">
 
 				<!-- page intro start -->
@@ -47,24 +85,28 @@
 									<strong>Error!</strong> There was an error sending your message.
 								</div>
 								<div class="contact-form">
-									<form id="contact-form" role="form">
+									<form id="contact-form" role="form" method="post">
 										<div class="form-group name">
 											<label for="name">نام و نام خانوادگی</label>
 											<input type="text" class="form-control" id="name" name="name" placeholder="">
 										</div>
+                                        <div class="form-group name">
+											<label for="name">موبایل</label>
+											<input type="text" class="form-control" id="mobile" name="mobile" placeholder="">
+										</div>
 										<div class="form-group email">
 											<label for="email">ایمیل</label>
-											<input type="email" class="form-control" id="email" name="email" placeholder="">
+											<input type="email" class="form-control" id="mail" name="mail" placeholder="">
 										</div>
 										<div class="form-group subject">
 											<label for="subject">موضوع</label>
-											<input type="text" class="form-control" id="subject" name="subject" placeholder="">
+											<input type="text" class="form-control" id="title" name="title" placeholder="">
 										</div>
 										<div class="form-group message">
 											<label for="message">متن پیام</label>
-											<textarea class="form-control" rows="6" id="message" name="message" placeholder=""></textarea>
+											<textarea class="form-control" rows="6" id="content" name="content" placeholder=""></textarea>
 										</div>
-										<input type="submit" value="ارسال" class="btn btn-default">
+										<input name="submit" type="submit" value="ارسال" class="btn btn-default">
 									</form>
                                     <br>
 								</div>

@@ -296,7 +296,7 @@ jQuery(document).ready(function ($) {
                     }
                 }
 
-                function OnMainSliderStateChange(currentIndex, progress, progressBegin, idleBegin, idleEnd, progressEnd) {
+                /*function OnMainSliderStateChange(currentIndex, progress, progressBegin, idleBegin, idleEnd, progressEnd) {
 
                     _NestedSliderCurrent = _NestedSliders[currentIndex];
 
@@ -311,7 +311,7 @@ jQuery(document).ready(function ($) {
                             mainSlider.$Play(true);
                         }
                     }
-                }
+                }*/
 
                 function OnMainSliderSwipeStart(position, virtualPosition) {
                     _NestedSliderCurrent && _NestedSliderCurrent.$Pause();

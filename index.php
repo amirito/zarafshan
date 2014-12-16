@@ -8,10 +8,7 @@
 <!-- jssor -->
 <link rel="stylesheet" type="text/css" href="css/slider.css">
 <title>زر افشان</title>
-<script src="js/jquery.js"></script>
-<script src="js/jssor.js"></script>
-<script src="js/jssor.slider.min.js"></script>
-<script src="js/slider.js"></script>
+
 </head>
 
 <body>
@@ -108,6 +105,7 @@
         	<li><a href="?page=home">صفحه اصلی</a></li>
             <li><a href="?page=sangdal">جدول</a></li>
             <li><a href="?page=jadval">سنگدال</a></li>
+            <li><a href="?page=activities">فعالیت های عمرانی</a></li>
             <li><a href="?page=contacr">ارتباط با ما</a></li>
             <li><a href="?page=about">درباره ما</a></li>
         </ul>
@@ -119,7 +117,10 @@
     </div>
 </footer>
 
-
+<script src="js/jquery.js"></script>
+<script src="js/jssor.js"></script>
+<script src="js/jssor.slider.min.js"></script>
+<script src="js/slider.js"></script>
 
 <script src="js/bootstrap.min.js"></script>
 <!-- jssor -->

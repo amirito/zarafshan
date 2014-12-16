@@ -28,7 +28,7 @@
                         <!-- Slides Container -->
                         <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 600px; height: 300px; overflow: hidden;">
                             <div>
-                                <a u="image" href="#"><img src="images/slider-1-slide-1.jpg" alt="image slider" /></a>
+                                <a u="image" href="#"><img src="images/slider-1-slide-4.jpg" alt="image slider" /></a>
                                 <div u=caption t="*" class="captionOrange"  style="position:absolute; left:20px; top: 30px; width:300px; height:30px;"> 
                                 شرکت راه سازان زرافشان
                                 </div>
@@ -69,7 +69,7 @@
                         <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 600px; height: 300px;
                             overflow: hidden;">
                             <div>
-                                <a u=image href="#"><img src="images/slider-1-slide-2.jpg" alt="banner rotator" /></a>
+                                <a u=image href="#"><img src="images/slider-1-slide-1.jpg" alt="banner rotator" /></a>
                                 <div u=caption t="*" class="captionOrange"  style="position:absolute; left:20px; top: 30px; width:300px; height:30px;"> 
                                 شرکت راه سازان زرافشان
                                 </div>
@@ -161,7 +161,7 @@
                         <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 600px; height: 300px;
                             overflow: hidden;">
                             <div>
-                                <a u=image href="#"><img src="images/slider-1-slide-2.jpg" alt="banner rotator" /></a>
+                                <a u=image href="#"><img src="images/slider-1-slide-2.jpg" alt="banner rotator" width="600" height="300"/></a>
                                 <div u=caption t="*" class="captionOrange"  style="position:absolute; left:20px; top: 30px; width:300px; height:30px;"> 
                                 شرکت راه سازان زرافشان
                                 </div>
