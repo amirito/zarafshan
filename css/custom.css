@@ -116,3 +116,12 @@ a:hover{
 	-o-transition: all .5s;
 	transition: all .5s;
 	}
+.img-thumbnail{
+	background-color:#4e79ed;
+	padding:2px;
+	vertical-align:baseline !important;
+	}
+.lb-container{
+	background-color:#4e79ed;
+	padding:2px;
+	}

@@ -7,6 +7,9 @@
 <link rel="stylesheet" type="text/css" href="css/custom.css">
 <!-- jssor -->
 <link rel="stylesheet" type="text/css" href="css/slider.css">
+<link rel="stylesheet" type="text/css" href="css/lightbox.css">
+<script src="js/jquery.js"></script>
+<script src="js/lightbox.min.js"></script>
 <title>زر افشان</title>
 
 </head>
@@ -92,10 +95,10 @@
         <ul class="list-unstyled" style="padding-right:0">
         	<li><i class="fa fa-phone"></i> تلفن : 44005308 - 021</li>
             <li><i class="fa fa-mobile"></i> همراه : 8171871 - 0912</li>
-            <li><i class="fa fa-fax"></i> فکس : 44005332 - 021</li>
+            <li><i class="fa fa-fax"></i> تلفکس : 44005332 - 021</li>
             <li><i class="fa fa-envelope"></i> ایمیل : info@zarafshan.com</li>
-            <li><i class="fa fa-taxi"></i> آدرس : خیابان آیت الله کاشانی، بین شاهین و جنت آباد، خیابان نیرو، پلاک1، طبقه4، واحد 20</li>
-            <li><i class="fa fa-taxi"></i> جاده اندیشه شهریار- روبروی فاز دو اندیشه - بلوار ملارد خیابان راغب - اطلس شرقی پلاک 557 </li>
+            <li><i class="fa fa-taxi"></i> آدرس دفتر مرکزی : خیابان آیت الله کاشانی، بین شاهین و جنت آباد، خیابان نیرو، پلاک1، طبقه4، واحد 20</li>
+            <li><i class="fa fa-taxi"></i> آدرس کارخانه : جاده شهریار اندیشه - روبروی فاز 2 اندیشه - بلوار شهید راغب (ایران زمین) - خیابان اطلس شرقی - پلاک 557 </li>
             <li><i class="fa fa-user"></i> رئیس هیئت مدیره : آقای صفر عبدی نیا</li>
         </ul>
     </div>
@@ -104,10 +107,10 @@
         <hr>
         <ul class="list-unstyled no-decor" style="padding-right:0">
         	<li><a href="?page=home">صفحه اصلی</a></li>
-            <li><a href="?page=sangdal">جدول</a></li>
-            <li><a href="?page=jadval">سنگدال</a></li>
+            <li><a href="?page=jadval">جدول</a></li>
+            <li><a href="?page=sangdal">سنگدال</a></li>
             <li><a href="?page=activities">فعالیت های عمرانی</a></li>
-            <li><a href="?page=contacr">ارتباط با ما</a></li>
+            <li><a href="?page=contact">ارتباط با ما</a></li>
             <li><a href="?page=about">درباره ما</a></li>
         </ul>
     </div>

@@ -35,9 +35,9 @@
 											<th class="text-right" >ابعاد جداول</th>
 											<th class="text-right">وزن</th>
 											<th class="text-right">عیار</th>
-                                            <th class="text-right">قیمت جداول</th>
-                                            <th class="text-right">تعداد جداول در هر خاور</th>
-                                            <th class="text-right">تخلیه جداول</th>
+                                           
+                                            <th class="text-right">تعداد جداول در هر کامیونت</th>
+                                           
                                             <th class="text-right">تعداد جداول در هر تریلی</th>
 										</tr>
 									</thead>
@@ -47,19 +47,19 @@
 											<td>30*50*10</td>
 											<td>35</td>
 											<td>400</td>
-                                            <td>37,000</td>
+                                            
                                             <td>150</td>
-                                            <td>1،500</td>
+                                        
                                             <td>600</td>
 										</tr>
 										<tr>
 											<td>2</td>
-											<td>30*50*10</td>
+											<td>30*50*12</td>
 											<td>42</td>
 											<td>400</td>
-                                            <td>41,000</td>
+                                           
                                             <td>120</td>
-                                            <td>2،000</td>
+                                            
                                             <td>500</td>
 										</tr>
 										<tr>
@@ -67,9 +67,9 @@
 											<td>35*50*15</td>
 											<td>60</td>
 											<td>400</td>
-                                            <td>54,000</td>
+                                            
                                             <td>90</td>
-                                            <td>2،500</td>
+                                           
                                             <td>400</td>
 										</tr>
                                         <tr>
@@ -77,9 +77,9 @@
 											<td>40*50*15</td>
 											<td>75</td>
 											<td>400</td>
-                                            <td>57,000</td>
+                                            
                                             <td>70</td>
-                                            <td>2،500</td>
+                                          
                                             <td>300</td>
 										</tr>
                                         <tr>
@@ -87,9 +87,9 @@
 											<td>50*50*15</td>
 											<td>85</td>
 											<td>400</td>
-                                            <td>65,000</td>
+                                            
                                             <td>60</td>
-                                            <td>2،500</td>
+                                          
                                             <td>250</td>
 										</tr>
                                         <tr>
@@ -97,9 +97,9 @@
 											<td>60*50*15</td>
 											<td>101</td>
 											<td>400</td>
-                                            <td>83,000</td>
+                                           
                                             <td>50</td>
-                                            <td>3،000</td>
+                                            
                                             <td>200</td>
 										</tr>
                                         <tr>
@@ -107,9 +107,9 @@
 											<td>60*50*20</td>
 											<td>135</td>
 											<td>400</td>
-                                            <td>98,500</td>
+                                            
                                             <td>40</td>
-                                            <td>3،000</td>
+                                          
                                             <td>160</td>
 										</tr>
                                         <tr>
@@ -117,9 +117,9 @@
 											<td>70*50*20</td>
 											<td>164</td>
 											<td>400</td>
-                                            <td>125,000</td>
+                                           
                                             <td>30</td>
-                                            <td>3،500</td>
+                                            
                                             <td>120</td>
 										</tr>
 									</tbody>
