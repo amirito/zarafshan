@@ -12,16 +12,15 @@ while($groups_row = $groups_result->fetch_assoc()){
 
 if(isset($_POST['add'])){
 	$user = new Contacts();
-	$inputArray['first_name']= $_POST['first_name'];
 	$inputArray['last_name']= $_POST['last_name'];
 	$inputArray['mobile']= $_POST['mobile'];
 	$inputArray['group_id']= $_POST['group_id'];
 	$inputArray['activate']= 1;
 	
 	if($user->addRow('contacts',$inputArray)){
-		$error = 'ok';
+		$error = 'اطلاعات شما ثبت شد';
 		}else{
-			$error = 'no';
+			$error = 'خطا در ثبت';
 			}
 	
 	}
@@ -31,14 +30,7 @@ if(isset($_POST['add'])){
     <div class="col-md-7 pull-right">
         <form method="post" role="form" class="form-horizontal" enctype="multipart/form-data">
         	<hr>
-           <div class="form-group">
-                
-                <label for="first_name" class="col-sm-4 pull-right">نام</label>
-                <div class="col-sm-8">
-                	<input name="first_name" class="form-control" type="text">
-                </div>
-            </div>
-            
+
             <div class="form-group">
                 
                 <label for="last_name" class="col-sm-4 pull-right">نام خانوادگی</label>

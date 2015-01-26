@@ -14,7 +14,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="assets/ico/favicon.ico">
 
-    <title>پنل ادمین طناز مزون</title>
+    <title>پنل ادمین راه سازان زرافشان</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -56,7 +56,7 @@
             <li><a href="index.php">صفحه اصلی</a></li>
             
           </ul>
-          <a class="navbar-brand" href="index.php" style="float:right; margin-left:20px;">مزون طناز</a>
+          <a class="navbar-brand" href="index.php" style="float:right; margin-left:20px;">زرافشان</a>
           <form class="navbar-form navbar-right">
             <input type="text" class="form-control" placeholder="جستجو...">
           </form>

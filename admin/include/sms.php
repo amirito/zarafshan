@@ -20,7 +20,7 @@ if(isset($_POST['send'])){
 }
 ?>
 <div class="container">
-	<h1>اضافه کردن شخص به دفترچه تلفن</h1>
+	<h1>ارسال اس ام اس</h1>
     <div class="col-md-7 pull-right">
         <form method="post" role="form" class="form-horizontal" enctype="multipart/form-data">
         	<hr>

@@ -8,9 +8,9 @@ if(isset($_POST['add'])){
 	$inputArray['group_name']= $_POST['group_name'];
 	
 	if($user->addRow('groups',$inputArray)){
-		$error = 'ok';
+		$error = 'اطلاعات شما ثبت شد';
 		}else{
-			$error = 'no';
+			$error = 'خطا';
 			}
 	
 	}
@@ -84,7 +84,6 @@ if(isset($_POST['select'])){
             	<thead>
                 <tr>
 					<th>ردیف</th>
-                    <th>نام</th>
                     <th>نام خانوادگی</th>
 					<th>موبایل</th>
                     <th>گروه</th>
@@ -97,7 +96,6 @@ if(isset($_POST['select'])){
 			echo '<tr>
 			<form method="post">
 					<td>1</td>
-					<td>'.$contacts_row['first_name'].'</td>
 					<td>'.$contacts_row['last_name'].'</td>
 					<td>'.$contacts_row['mobile'].'</td>
 					<td>'.$contacts_row['group_id'].'</td>	
