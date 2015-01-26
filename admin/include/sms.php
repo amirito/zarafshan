@@ -1,5 +1,6 @@
 <?php
 $error = '';
+$msg="با سلام\nشرکت راه سازان زرافشان، تولید کننده انواع قطعات بتنی (جدول و سنگدل)\nwww.rzarafshan.com";
 #################
 $groups_list = '';
 $groups_query = "SELECT * FROM groups ; ";
@@ -13,9 +14,17 @@ if(isset($_POST['send'])){
 	
 	$sms_query = "SELECT * FROM contacts WHERE group_id = '$group_id' ; ";
 	$sms_result = $mysqli->query($sms_query);
+	$s = new sms(SMS_USER_NAME,SMS_PASSWORD,SMS_NUMBER);
+	$genderFlag;
 	while($sms_row = $sms_result->fetch_assoc()){
-		$s = new sms(SMS_USER_NAME,SMS_PASSWORD,SMS_NUMBER);
-		$s->send_sms($sms_row['mobile'],$message);
+		
+		if($sms_row['gender'] == 'male'){
+			$genderFlag = "آقای";	
+			}elseif($sms_row['gender'] == 'female'){
+			$genderFlag = "خانم";
+			}
+		$finalMessage = $genderFlag.' '.$sms_row['last_name']."\n".$message;
+		$s->send_sms($sms_row['mobile'],$finalMessage);
 	}
 }
 ?>
@@ -28,10 +37,7 @@ if(isset($_POST['send'])){
             <div class="form-group">
             	<label for="groupsegory_id" class="col-sm-4 pull-right"> متن</label>
                 <div class="col-sm-8">
-                    <textarea class="form-control" name="message">آقای 
-                    با سلام
-                    شرکت راه سازان زرافشان، تولید کننده انواع قطعات بتنی (جدول و سنگدل)
-                    www.rzarafshan.com</textarea>
+                    <textarea class="form-control" rows="5" name="message"><?php echo $msg; ?></textarea>
                 </div>
             </div>
             
