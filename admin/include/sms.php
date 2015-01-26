@@ -28,7 +28,10 @@ if(isset($_POST['send'])){
             <div class="form-group">
             	<label for="groupsegory_id" class="col-sm-4 pull-right"> متن</label>
                 <div class="col-sm-8">
-                    <textarea class="form-control" name="message"></textarea>
+                    <textarea class="form-control" name="message">آقای 
+                    با سلام
+                    شرکت راه سازان زرافشان، تولید کننده انواع قطعات بتنی (جدول و سنگدل)
+                    www.rzarafshan.com</textarea>
                 </div>
             </div>
             

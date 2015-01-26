@@ -14,6 +14,7 @@ if(isset($_POST['add'])){
 	$user = new Contacts();
 	$inputArray['last_name']= $_POST['last_name'];
 	$inputArray['mobile']= $_POST['mobile'];
+	$inputArray['sex']= $_POST['sex'];
 	$inputArray['group_id']= $_POST['group_id'];
 	$inputArray['activate']= 1;
 	
@@ -46,7 +47,13 @@ if(isset($_POST['add'])){
                 	<input name="mobile" class="form-control" type="text">
                 </div>
             </div>
-            
+             <div class="form-group">
+            <label for="mobile" class="col-sm-4 pull-right">جنسیت</label>
+            <div class="col-sm-8">
+            <input type="radio" name="sex"  value="male" checked>مرد
+			<input type="radio" name="sex" value="female">زن
+           </div>
+           </div>
             <div class="form-group">
             	<label for="groupsegory_id" class="col-sm-4 pull-right"> انتخاب گروه</label>
                 <div class="col-sm-8">
