@@ -1,6 +1,6 @@
 <?php
 $error = '';
-$msg="با سلام\nشرکت راه سازان زرافشان، تولید کننده انواع قطعات بتنی (جدول و سنگدل)\nwww.rzarafshan.com";
+$msg="با سلام\nشرکت راه سازان زرافشان، تولید کننده انواع قطعات بتنی (جدول و سنگدال)\nعبدی نیا\nwww.rzarafshan.com";
 #################
 $groups_list = '';
 $groups_query = "SELECT * FROM groups ; ";
